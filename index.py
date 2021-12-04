@@ -2,6 +2,7 @@ import socket
 import os
 
 HOST = ''
+print(int(os.environ.get("PORT", 5000)))
 PORT = int(os.environ.get("PORT", 5000))
 
 #Response Message Eka
